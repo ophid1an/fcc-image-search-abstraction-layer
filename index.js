@@ -64,7 +64,6 @@ app.get('/search/:id', function (req, res) {
         context: val.SourceUrl
       });
     });
-    console.log(body.d.results[0]);
 
     res.send(newBody);
 
